@@ -17,7 +17,6 @@ export const PackageCards: React.FC<PackageCardsProps> = ({ onSelectPackage }) =
       features: [
         'Canvas size: 18" x 24" Inches',
         'Fine art studio varnish & acrylic finishing',
-        'Insured hand-delivery or white-glove shipping',
         'Social Media Reels & Video Production',
       ],
       buttonText: 'CHOOSE 18" x 24"',
@@ -33,6 +32,7 @@ export const PackageCards: React.FC<PackageCardsProps> = ({ onSelectPackage }) =
       features: [
         'Canvas size: 20" x 30" Inches',
         'Fine art studio varnish & acrylic finishing',
+        'Insured hand-delivery ',
         'Social Media Reels & Video Production',
       ],
       buttonText: 'CHOOSE 20" x 30"',
