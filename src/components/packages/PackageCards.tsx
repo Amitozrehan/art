@@ -10,7 +10,7 @@ export const PackageCards: React.FC<PackageCardsProps> = ({ onSelectPackage }) =
     {
       id: 'pkg-35k',
       title: '18" x 24" CANVAS',
-      price: '₹35,000',
+      price: '₹39,999',
       dimension: '18 x 24 inches',
       subtitle: 'Ideal for intimate & elegant wedding celebrations',
       badge: null,
@@ -25,7 +25,7 @@ export const PackageCards: React.FC<PackageCardsProps> = ({ onSelectPackage }) =
     {
       id: 'pkg-42k',
       title: '20" x 30" CANVAS',
-      price: '₹42,000',
+      price: '₹46,999',
       dimension: '20 x 30 inches',
       subtitle: 'Our most popular choice for grand celebrations',
       badge: null,
@@ -41,7 +41,7 @@ export const PackageCards: React.FC<PackageCardsProps> = ({ onSelectPackage }) =
     {
       id: 'pkg-45k',
       title: '24" x 30" CANVAS',
-      price: '₹45,000',
+      price: '₹49,999',
       dimension: '24 x 30 inches',
       subtitle: 'Luxury grand canvas for statement portraits',
       badge: 'MOST POPULAR',
