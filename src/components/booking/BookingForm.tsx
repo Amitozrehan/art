@@ -19,7 +19,7 @@ const packageOptions = [
     id: 'pkg-35k',
     label: '18" × 24" Canvas',
     size: '18" × 24" Inches',
-    price: '₹35,000',
+    price: '₹39,999',
     subtitle: 'Ideal for intimate & elegant wedding celebrations',
     badge: null,
   },
@@ -27,7 +27,7 @@ const packageOptions = [
     id: 'pkg-42k',
     label: '20" × 30" Canvas',
     size: '20" × 30" Inches',
-    price: '₹42,000',
+    price: '₹46,999',
     subtitle: 'Our most popular choice for grand celebrations',
     badge: 'MOST POPULAR',
   },
@@ -35,7 +35,7 @@ const packageOptions = [
     id: 'pkg-45k',
     label: '24" × 30" Canvas',
     size: '24" × 30" Inches',
-    price: '₹45,000',
+    price: '₹49,999',
     subtitle: 'Luxury grand canvas for statement portraits',
     badge: 'LUXURY COLLECTION',
   },
@@ -50,18 +50,18 @@ const packageOptions = [
 ];
 
 const getPackageDetails = (selectedStr: string) => {
-  if (selectedStr.includes('35') || selectedStr.includes('18')) {
+  if (selectedStr.includes('35') || selectedStr.includes('39') || selectedStr.includes('18')) {
     return {
       package: '18" × 24" Canvas',
       canvas_size: '18" × 24" Inches',
-      package_price: '₹35,000',
+      package_price: '₹39,999',
     };
   }
-  if (selectedStr.includes('45') || selectedStr.includes('24')) {
+  if (selectedStr.includes('45') || selectedStr.includes('49') || selectedStr.includes('24')) {
     return {
       package: '24" × 30" Canvas',
       canvas_size: '24" × 30" Inches',
-      package_price: '₹45,000',
+      package_price: '₹49,999',
     };
   }
   if (selectedStr.includes('Custom') || selectedStr.includes('Bespoke')) {
@@ -74,7 +74,7 @@ const getPackageDetails = (selectedStr: string) => {
   return {
     package: '20" × 30" Canvas',
     canvas_size: '20" × 30" Inches',
-    package_price: '₹42,000',
+    package_price: '₹46,999',
   };
 };
 
@@ -107,7 +107,7 @@ const initialFormState: BookingSubmissionData = {
 
   package: '20" × 30" Canvas',
   canvas_size: '20" × 30" Inches',
-  package_price: '₹42,000',
+  package_price: '₹46,999',
   painting_vision: '',
   key_figures: '2',
   special_requests: '',
@@ -610,8 +610,8 @@ export const BookingForm: React.FC<BookingFormProps> = ({ initialPackage, onNavi
                         key={opt.id}
                         onClick={() => handleSelectPackageOption(opt)}
                         className={`p-4 rounded-xl border cursor-pointer transition-all relative flex flex-col justify-between ${isSelected
-                            ? 'bg-gradient-to-b from-[#2A0510] to-[#1C030A] border-2 border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.25)]'
-                            : 'bg-[#0A090B] border-[#D4AF37]/25 hover:border-[#D4AF37]/50'
+                          ? 'bg-gradient-to-b from-[#2A0510] to-[#1C030A] border-2 border-[#D4AF37] shadow-[0_0_20px_rgba(212,175,55,0.25)]'
+                          : 'bg-[#0A090B] border-[#D4AF37]/25 hover:border-[#D4AF37]/50'
                           }`}
                       >
                         {opt.badge && (

@@ -23,22 +23,22 @@ export const WHATSAPP_MESSAGES = {
 
   // Packages CTAs Messages
   PACKAGE_35K:
-    'Hello Arsh Dhiman Art! I am interested in the ₹35,000 (18" x 24" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹39,999 (18" x 24" Canvas) package for my event. Please share more details.',
 
   PACKAGE_42K:
-    'Hello Arsh Dhiman Art! I am interested in the ₹42,000 (20" x 30" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹46,999 (20" x 30" Canvas) package for my event. Please share more details.',
 
   PACKAGE_45K:
-    'Hello Arsh Dhiman Art! I am interested in the ₹45,000 (24" x 30" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹49,999 (24" x 30" Canvas) package for my event. Please share more details.',
 
   PACKAGE_SIGNATURE:
-    'Hello Arsh Dhiman Art! I am interested in the ₹35,000 (18" x 24" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹39,999 (18" x 24" Canvas) package for my event. Please share more details.',
 
   PACKAGE_GRAND:
-    'Hello Arsh Dhiman Art! I am interested in the ₹42,000 (20" x 30" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹46,999 (20" x 30" Canvas) package for my event. Please share more details.',
 
   PACKAGE_BESPOKE:
-    'Hello Arsh Dhiman Art! I am interested in the ₹45,000 (24" x 30" Canvas) package for my event. Please share more details.',
+    'Hello Arsh Dhiman Art! I am interested in the ₹49,999 (24" x 30" Canvas) package for my event. Please share more details.',
 
   // Testimonials Section Message
   REVIEWS_INQUIRY:
